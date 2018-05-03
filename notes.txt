@@ -1,0 +1,33 @@
+
+
+http://www.inside-r.org/packages/cran/GGally/docs/ggpairs
+http://colorbrewer2.org/#
+http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
+http://stackoverflow.com/questions/5746544/r-cut-by-defined-interval
+http://stackoverflow.com/questions/15047742/sum-of-rows-based-on-column-value
+http://stackoverflow.com/questions/4341157/aggregate-or-summarize-to-get-ratios
+http://docs.ggplot2.org/current/geom_histogram.html
+http://www.ats.ucla.edu/stat/r/faq/reshape.htm
+
+
+investigate grouping for citric acid along with fixed acidity and volatile acidity.
+
+investigate grouping for acidity with residual sugar.
+
+investigate fixed acidity relating with total sulfur dioxide, density and alcohol.
+
+investigate residual sugar and chlorides, residual sugar and density, residual sugar and ph, residual sugar and alcohol.
+
+investigate grouping of chlorides and alcohol
+
+find correlations between chlorides / sulfur dioxide / density and sulphates.
+
+ph and sulfur dioxide. ph and density.
+
+alcohol and sulphates
+
+If I can find correlations in the above features, I should be able to use their interaction with quality to predict a wine's quality given its features.
+
+it appears that as quality increases - the wine "zeros in" on specific values, or becomes bimodal. This may be because of differing preferences, or because there are different styles within this type of wine, which may taste different, but all may be perceived as high quality. Fixed acidity focuses to two different values, volatile acidity focuses at high quality, citric acid sits within a certain range at high ratings. Residual sugar for wines with high quality sits at either near zero sugar or 10 g/dm^3. Chloride levels are low for high quality wines. Free sulfur dioxide focuses to two different values, as well as total sulfur dioxide. Density focuses to two different values. pH focuses to around 3.3. sulphates sit at 2 specific ranges. Alcohol at higher ratings sit around 10.3 and 12.5 percent.
+
+could have subset the data to better isolate correlations
