@@ -1,0 +1,9 @@
+
+http://www.inside-r.org/packages/cran/GGally/docs/ggpairs
+http://colorbrewer2.org/#
+http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
+http://stackoverflow.com/questions/5746544/r-cut-by-defined-interval
+http://stackoverflow.com/questions/15047742/sum-of-rows-based-on-column-value
+http://stackoverflow.com/questions/4341157/aggregate-or-summarize-to-get-ratios
+http://docs.ggplot2.org/current/geom_histogram.html
+http://www.ats.ucla.edu/stat/r/faq/reshape.htm
